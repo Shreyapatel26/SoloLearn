@@ -1,0 +1,77 @@
+
+/******************CREATOR: SHREYA*******************/
+
+body {
+    margin: 0;
+    background-color: #e2f6fe;
+}
+h2 {
+     width: 200px;
+     font-size: 30px;
+     padding: 20px 20px;
+     text-align: center;
+     letter-spacing: 1px;
+     background-color: #37c4ff;
+     border-radius: 0 50px 50px 0;
+     font-family: 'Bubblegum Sans', cursive;
+     box-shadow: inset #00a2e4 -3px -3px 10px 0, inset #fff -7px -7px 10px 0;
+}
+h2::after {
+    content: '';
+    height: 5px;
+    width: 210px;
+    filter: blur(3px);
+    position: absolute;
+    border-radius: 5px;
+    margin: -14px -176px;
+    background-color: #fff;
+}
+
+/*____________________1st BUBBLE____________________*/
+
+.bubble-1 {
+    width: 200px;
+    height: 200px;
+    margin: 120px 70px;
+    border-radius: 50%;
+    background-color: #e2f6fe;
+    animation: flying 2s linear infinite alternate;
+    box-shadow: inset #06b6ff 2px 7px 4px 0, inset #70d5ff -2px -5px 4px 0, inset #80daff 0px 70px 40px 0, inset #c9effe -10px 10px 10px 20px;
+}
+.bubble-1::after {
+    content:'';
+    width: 35px;
+    height: 30px;
+    margin: 40px 40px;
+    filter: blur(3px);
+    position: absolute;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: #fff 35px -20px 0 -5px;
+}
+@keyframes flying {
+    to
+        { margin: 130px 70px; }
+}
+
+/*___________________2nd BUBBLE_____________________*/
+
+.bubble-2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: -180px 200px;
+    background-color: #e2f6fe;
+    box-shadow: inset #06b6ff 2px 7px 4px 0, inset #70d5ff -2px -5px 4px 0, inset #80daff 0px 30px 40px 0;
+}
+.bubble-2::after {
+    content:'';
+    width: 20px;
+    height: 15px;
+    margin: 24px 25px;
+    filter: blur(2px);
+    position: absolute;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: #fff 10px -15px 0 -4px;
+         }
