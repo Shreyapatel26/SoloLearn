@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+     <meta charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap" rel="stylesheet">
+     
+     <title>Dark Glassmorphism form UI!</title>
+        
+    </head>
+    <body>
+    
+        <form>
+            <div class="container">
+            <h2> Member Login: </h2>
+        
+     <input type="name" placeholder="Username" required>
+                
+   <input type="password" placeholder="Password" required>
+   
+    <input class="s"type="submit" value="LOGIN">
+ <h5>Forgot Password? <a href="">Click here</a></h5>
+ 
+                <hr width="90%">
+                
+   <input class="r" type="submit" value="REGISTER">
+            </div>
+            
+        </form>
+    
+    </body>
+</html>    
