@@ -1,0 +1,23 @@
+
+<!-----------------CREATED BY SHREYA----------------->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>2d CSS[1]</title>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        
+           <h2>Bubblezz..!</h2>
+        <div class="bubble-1"></div>
+        <div class="bubble-2"></div>
+        
+    </body> 
+</html>
+
+<!----------------HOPE U LOVED IT!------------------->
