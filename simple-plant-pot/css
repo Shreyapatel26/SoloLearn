@@ -1,0 +1,213 @@
+* {
+     box-sizing: border-box;
+ }
+
+body {
+    margin: 0; padding: 0; overflow: hidden;
+    background-color: #152238; font-size: 13px;
+}
+*, ::after, ::before {
+    content: ''; position: absolute;
+}
+.ground {
+    width: 100vw; height: 100vh; margin-top: 140vw;
+    background-color: #69bb59; z-index: -99;
+}
+.pot {
+    border-radius: 2px; border: 100px solid #513918;
+    width: 150px;  height:0; margin: 490px 120px;
+    border-bottom: 100px solid transparent;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+}
+.pot::after {
+    width: 155px; height: 20px; margin: -100px -22px;
+    box-shadow: #251a0b 0 12px 0 -7px;
+    background-color: #513918;
+}
+.pot::before {
+    background-color: #000; border-radius: 100%;
+    width: 160px; height: 30px; opacity: 20%;
+    margin:-17px -25px; z-index: -99;
+}
+.base {
+    width: 30px; height: 30px; margin: 460px 130px;
+    border-radius: 50%; background-color: #398c40;
+    box-shadow: #398c40 10px 3px, #398c40 30px -4px, #398c40 50px 0, #398c40 100px 0, #398c40 60px 0, #398c40 90px 0, #398c40 80px -3px;     
+    z-index: -99;
+}
+.base2 {
+    width: 30px; height: 30px; margin: 470px 120px;
+    border-radius: 50%; background-color: #2e6930;
+    box-shadow: #2e6930 10px 3px, #2e6930 30px -4px, #2e6930 50px 0, #2e6930 100px 0, #2e6930 60px 0, #2e6930 90px 0, #2e6930 80px -3px, #2e6930 115px -1px, #2e6930 120px 0; z-index: -99;
+}
+.leaf {
+    width: 30px; height: 30px; margin: 450px 120px;
+    box-shadow: #75d746 inset 5px 5px;
+    background-color: #398c40; 
+    border-radius: 0 100px 0 100px;
+}
+.leaf::after {
+    width: 30px; height: 30px; margin: -5px 20px;
+    box-shadow: #75d746 inset 5px 5px;
+    background-color: #398c40;
+    transform: rotate(60deg);
+    border-radius: 0 100px 0 100px;
+}
+.leaf2 {
+    width: 30px; height: 30px; margin: 450px 220px;
+    box-shadow: #35a048 inset 5px 5px;
+    background-color: #2e6930; 
+    transform: rotate(30deg);
+    border-radius: 0 100px 0 100px;
+}
+.leaf2::after {
+    width: 30px; height: 30px; margin: -5px 20px;
+    box-shadow: #35a048 inset 5px 5px;
+    background-color: #2e6930;
+    transform: rotate(60deg);
+    border-radius: 0 100px 0 100px;
+}
+.stem {
+    width: 6px; height: 60px; margin: 410px 190px;
+    background-color: #236b3a; border-radius: 50px;
+}
+.flower-1 {
+    width: 70px; height: 70px; margin: 345px 160px;
+    background-color: #590029; border-radius: 50%;
+}
+.flower-1::before {
+    width: 30px; height: 30px; margin: 18px -10px;
+    border-radius: 50%; background-color: #fe2f90;
+    box-shadow: #fe2f90 30px -35px, #fe2f90 62px 0, #fe2f90 30px 30px, #fe2f90 6px -25px, #fe2f90 52px -25px, #fe2f90 10px 20px, #fe2f90 52px 20px;
+}
+.flower-1::after {
+    width: 20px; height: 20px; margin: 23px 5px;
+    border-radius: 50%; background-color: #9a0048;
+    box-shadow: #9a0048 20px -20px, #9a0048 40px 0, #9a0048 20px 20px, #9a0048 6px -15px, #9a0048 33px -15px, #9a0048 5px 16px, #9a0048 34px 14px;
+}
+.leaf3 {
+    width: 40px; height: 40px; margin: 430px 158px;
+    box-shadow: #1a502c inset 5px 5px;
+    border-radius: 0 100px 0 100px;
+    background-color: #11351d;
+}
+.leaf3::after{
+    width: 40px; height: 40px; margin: -2px 30px;
+    box-shadow: #1a502c inset -5px -5px;
+    border-radius: 0 100px 0 100px;
+    transform: rotate(-100deg);
+    background-color: #11351d;
+}
+p {
+    color: #fff44f;
+    filter: blur(1px);
+    text-shadow: #fff44f 0 0 10px;
+}
+#firefly-1 {
+    animation: blink 0.3s infinite linear;
+    margin: 460px 190px;
+}
+#firefly-2 {
+    animation: blink 0.4s infinite linear;
+    margin: 330px 200px;
+}
+#firefly-3 {
+    animation: blink 0.5s infinite linear;
+    margin: 350px 200px;
+}
+#firefly-4 {
+    animation: blink 0.6s infinite linear;
+    margin: 374px 160px;
+}
+#firefly-5 {
+    animation: blink 0.7s infinite linear;
+    margin: 400px 225px;
+}
+#firefly-6 {
+    animation: blink 0.8s infinite linear;
+    margin: 450px 200px;
+}
+#firefly-7 {
+    animation: blink 0.9s infinite linear;
+    margin: 440px 180px;
+}
+#firefly-8 {
+    animation: blink 1s infinite linear;
+    margin: 470px 240px;
+}
+#firefly-9 {
+    animation: blink 2s infinite linear;
+    margin:340px 160px;
+}
+#firefly-10 {
+    animation: blink 1.2s infinite linear;
+    margin: 480px 130px;
+}
+@keyframes blink{
+      0%,1%,5%,10%,15%,30%{ opacity:0.5; }
+      30%,3%,8%,13%,20%{ opacity:1;}
+}
+.clouds {
+    width: 250px; height: 30px; margin: 60px 0;
+    background-color: #fff; border-radius: 50%;
+    filter: blur(20px);
+}
+.clouds::after {
+    width: 200px; height: 20px; margin: -60px 180px;
+    background-color: #fff; border-radius: 50%;
+    filter: blur(20px);
+}
+.clouds::before {
+    width: 230px; height: 20px; margin: 70px 120px;
+    background-color: #fff; border-radius: 50%;
+    filter: blur(7px);
+}
+.moon {
+    width: 130px; height: 130px; margin: 10px 250px;
+    background-color: #fff; border-radius: 50%;
+    box-shadow: #fff 0 0 50px 0, #ddd inset 3px 3px 5px, #ddd inset -5px -30px 10px;
+}
+.star {
+    color: #fff; font-size: 7px;
+}
+.one {
+    margin: 100px 200px;
+    animation: blink 0.5s infinite linear;
+}
+.two {
+    margin: 60px 120px;
+    animation: blink 0.6s infinite linear;
+}
+.three {
+    margin: 10px 280px;
+    animation: blink 0.7s infinite linear;
+}
+.four {
+    margin: 120px 230px;
+    animation: blink 0.8s infinite linear;
+}
+.five {
+    margin: 0 10px;
+    animation: blink 0.9s infinite linear;
+}
+.six {
+    margin: 130px 10px;
+    animation: blink 1s infinite linear;
+}
+.seven {
+    margin: 200px 170px;
+    animation: blink 1.1s infinite linear;
+}
+.eight {
+    margin: 20px 200px; font-size: 2px;
+    animation: blink 1.4s infinite linear;
+}
+.nine {
+    margin: 29px 189px;
+    animation: blink 1.7s infinite linear;
+}
+.ten {
+    margin: 94px 177px;
+    animation: blink 2s infinite linear;
+  }
