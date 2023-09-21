@@ -1,0 +1,164 @@
+               <!--CREATOR: SHREYA-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Website</title>
+        
+            <!--For footer's icons-->
+            
+        <link rel="stylesheet" href="icons.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    rel="stylesheet">
+        
+                <!--Font style-->
+                
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        
+                <!--Nav Bar-->
+        
+        <div class="navBar">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact us</li>
+            </ul>
+        </div>
+        
+                  <!--GIF-->
+        
+        <img width="100%" src="https://thumbs.gfycat.com/NeedySphericalIndochinesetiger-size_restricted.gif">
+        
+              <!--Written on GIF/Img-->
+            
+        <div class="logo">
+            Nature heights
+        </div>
+        <div class="note">
+        Save nature as this is the cause of our life~
+        </div>
+     
+            <!--After GIF Home page-->
+     
+        <fieldset>
+       <div class="qus">What to do?</div>
+       <div class="ans">
+           Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.
+       </div>
+       
+                     <br />
+       
+      <div class="qus">How to do?</div>
+      <div class="ans">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.
+      </div>
+      
+                     <br />
+      
+      <div class="qus">What we need?</div>
+      <div class="ans">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. laboris nisi ut aliquip ex ea commodo consequat.</div>
+       </fieldset>
+       
+               <br /><br /><br />
+       
+       <!--First Section (About) 3 Steps-->
+       
+       <section class="firstSection">
+       
+       <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script> <lord-icon src="https://cdn.lordicon.com/bccqzuyr.json" trigger="loop" colors="primary:#121331,secondary:#109121" style="width:90px;height:90px"> </lord-icon>
+       
+                     <br />
+                     
+           Our all members are working hard to prevent cutting of trees and to save animals, if you want to be a part of our community help us by the following process...
+           <p>
+               <span>Step-1:</span>
+                   
+                     <br />
+               
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. laboris nisi ut aliquip ex ea commodo consequat.
+           </p>
+           <p>
+               <span>Step-2:</span>
+                   
+                     <br />
+               
+               Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           </p>
+           <p>
+               <span>Step-3:</span>
+                   
+                     <br />
+               
+               Laboris nisi ut aliquip ex ea commodo consequat. Sed do eiusmod tempor incididunt.
+           </p>
+       </section>
+       
+         <!--Categories Section(Services)-->
+       
+       <section class="secondSection">
+            Some of our categories..
+        
+              <br /><br /><br /><br />
+        
+        <fieldset>
+            <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script> <lord-icon src="https://cdn.lordicon.com/byacrmae.json" trigger="loop" colors="primary:#121331,secondary:#915110" style="width:100px;height:100px"> </lord-icon>
+            [ANIMALS~]
+            
+<hr>
+
+        <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script> <lord-icon src="https://cdn.lordicon.com/mlmwskmm.json" trigger="loop" colors="primary:#121331,secondary:#5c0e0a" style="width:100px;height:100px"> </lord-icon>
+        [BIRDS~]
+        
+<hr>
+
+        <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script> <lord-icon src="https://cdn.lordicon.com/gouaqenb.json" trigger="loop" colors="primary:#30c9e8,secondary:#109121" style="width:100px;height:100px"> </lord-icon>
+        [WATER PLANTS~]
+        
+<hr>
+
+        <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script> <lord-icon src="https://cdn.lordicon.com/oohidvvw.json" trigger="loop" colors="primary:#121331,secondary:#ee66aa" style="width:100px;height:100px"> </lord-icon>
+        [Flowers/Trees~]
+        </fieldset>
+        
+       </section>
+       
+       <!--Last section(Contact us / Form)-->
+    
+       <section class="lastSection">
+
+                <h3>Contact us:</h3>
+    
+             <p>UserName:<br />
+<input type="text" placeholder="Your Name" required="required"></p>  
+
+               <p>Email:<br />
+<input type="text" placeholder="Email"></p>
+
+              <p> number:<br />
+<input type="number" placeholder="Phone number"></p> 
+                    
+              <p>Send us:<br />
+<input type="address" placeholder="Type here..."></p>
+ 
+               <!--Submit button-->     
+<p><input class="button" type="submit" value="Submit"></p>
+
+        </section>
+        
+<!----------------------FOOTER---------------------->
+
+        <footer>
+            Follow us on: 
+           <br />
+    <i class="fa fa-2x fa-facebook"></i>
+    <i class="fa fa-2x fa-instagram" aria-hidden="true"></i>
+    <i class="fa fa-2x fa-twitter"></i>
+        </footer>
+    </body>
+  </html>
