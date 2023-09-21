@@ -1,0 +1,27 @@
+<!--------------CREATED by SHREYA-------------------->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>🧊</title>
+        
+<!-----------FONT STYLE BY GOOGLE FONTS-------------->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+    
+        <header>Ice Cream</header>
+        
+        <div class="ice-cream"></div>
+        <div class="top-choco"></div>
+        <div class="melt"></div>
+        <div class="sprinkles"></div>
+        
+        <div class="stick"></div>
+        
+    </body>
+          </html>
