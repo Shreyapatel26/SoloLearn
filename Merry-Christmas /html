@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>It's Christmas time..!</title>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        
+        <div class="ground"></div>
+        
+        
+        <div class="tree1">
+            <div id="star"></div>
+        </div>
+        <div class="tree2">
+            <div id="star2"></div>
+        </div>
+        <div class="tree3">
+            <div id="star3"></div>
+        </div>
+        
+        
+        <div class="gift1">
+            <div id="gift1top"></div> </div>
+        <div class="gift2">
+            <div id="gift2top"></div> </div>
+        
+        
+        <div class="snowman"></div>
+            <div id="head"></div>
+            <div id="hand1"></div>
+            <div id="hand2"></div>
+            <div id="hat"></div>
+            <div id="shawl"></div>
+   
+ <h2>⭐Wishing you all a very happy christmas!🎄</h2>
+      
+    </body> 
+</html>
