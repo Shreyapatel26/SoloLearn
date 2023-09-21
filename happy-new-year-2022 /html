@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+
+        <title> 1-1-2022 </title>
+        
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    </head>
+    <body>
+        
+        <div class="string"></div>
+        
+        <div class="ball"></div>
+        
+        <h2> Happy New Year!! </h2>
+        
+         <div class="quote">
+         No one can go back in time to change what has happened. So work on your present to make yourself a wonderful future.~
+        </div>
+        
+        <div class="ball3"></div>
+        
+        <h3> 1-January-2022-Saturday </h3>
+        
+    </body>
+</html> 
