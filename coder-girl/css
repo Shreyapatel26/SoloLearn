@@ -1,0 +1,244 @@
+* {
+     box-sizing: border-box;
+}
+body {
+    margin: 0; padding: 0; overflow: hidden;
+    background-color: #004646;
+}
+*, ::after, ::before {
+    content: ''; position: absolute;
+}
+.face {
+    width: 100px; height: 100px; margin: 300px 200px;
+    animation: shadow 1s linear infinite alternate;
+    border-radius: 50%; background-color: #fae7d0;
+    box-shadow: #ffcc99 inset -20px -5px 0 0;
+}
+@keyframes shadow {
+   from { box-shadow: #ffcc99 inset -10px -5px 0 0; }
+}
+       /*--------------Hair--------------*/
+.face::after {
+    width: 100px; height: 50px; margin: -20px 0px;
+    animation: shadow2 1s linear infinite alternate;
+    border-radius: 100px 100px 0 0;
+    box-shadow: #ffcc99 0 20px 0 0;
+    background-color: #000;
+}
+@keyframes shadow2 {
+    from { box-shadow: #ffcc99 0 10px 0 -4px; }
+}
+.face::before {
+    width: 120px; height: 135px; margin: -15px -10px;
+    border-radius: 100px 100px 10px 10px;
+    background: linear-gradient(360deg, #591f05,     #000000); z-index: -99;
+}
+
+.eye {
+    width: 25px; height: 25px; margin: 330px 220px;
+    background-color: #000; border-radius: 50%;
+    box-shadow: 35px 0 0 0;
+} 
+.eye::after {
+    width: 13px; height: 13px; margin: 3px 3px;
+    background-color: #fff; border-radius: 50%;
+    box-shadow: #fff 9px 7px 0 -3px, #fff 35px 0 0 0, #fff 42px 8px 0 -3px;
+}
+
+.mouth {
+    width: 15px; height: 8px; margin: 372px 243px;
+    border-radius: 0 0 100px 100px;
+    background-color: #000; z-index: 99;
+}
+.mouth::after {
+    width: 10px; height: 4px; margin: 2px 2.5px;
+    border-radius: 50px 50px 100px 100px;
+    background-color: red;
+}
+        /*--------------Nose-------------*/
+.mouth::before {
+    width: 3px; height: 2px; margin: -10px 5px;
+    background-color: #000; border-radius: 50%;
+}
+
+.body {
+    width: 120px; height: 80px; margin: 400px 190px;
+    animation: shadow4 1s linear infinite alternate;
+    box-shadow: #fe2f9c inset -17px 17px 0 0;
+    border-radius: 30px 30px 0 0;
+    background-color: #fe489d;
+}       
+@keyframes shadow4 {
+   from { box-shadow: #fe2f9c inset -10px 10px 0 0; }
+}
+        /*-------------Neck--------------*/
+.body::after {
+    width: 30px; height: 30px; margin: -5px 45px;
+    animation: shadow3 1s linear infinite alternate;
+    border-radius: 30px 30px 100px 100px;
+    box-shadow: #ffcc99 inset 0 10px 0 0;
+    background-color: #fae7d0;
+}
+@keyframes shadow3 {
+    from { box-shadow: #ffcc99 inset 0 8px 0 0; }
+}
+
+    /*----------Separation of hands------------*/
+.body::before {
+    width: 1vw; height: 7vh; margin: 34px 20px;
+    background-color: #000; border-radius: 10px;
+    box-shadow: 75px 0 0 0;
+}
+
+.table {
+    width: 100vw; height: 1vh; margin-top: 480px;
+    background-color: #000; border-radius: 100px;
+}
+
+.computer {
+    width: 40vw; height: 14vh; margin: 360px 40px;
+    animation: glow 1s linear infinite alternate;
+    background-color: #222; border-radius: 2px;
+    box-shadow: #333 inset 20px 20px 0 0, #111 inset -10px -10px 0 0, #ddd 20px 0 100px -30px;
+     border: 5px solid #000;
+}
+@keyframes glow {
+    from { box-shadow: #333 inset 20px 20px 0 0, #111 inset -10px -10px 0 0, #fff 50px -20px 100px 0; }
+}
+.computer::after {
+    width: 8vw; height: 9vh; margin: 55px 60px;
+    box-shadow: #111 inset 10px 5px 0 0;
+    background-color: #222;
+}
+.computer::before {
+    width: 20vw; height: 0.7vh; margin: 111px 35px;
+    background-color: #222;
+}
+
+.keyboard {
+    width: 35vw; height: 1vh; margin: 474px 170px;
+    background-color: #111; border-radius: 10px;
+    box-shadow: #444 inset 4px 4px 0 0;
+}
+
+.hand-1 {
+    width: 30px; height: 15px; margin: 455px 190px;
+    animation: type 0.4s linear infinite alternate;
+    box-shadow: #ffcc99 inset -10px -4px 0 0;
+    border-radius: 100px 100px 0 0;
+    background-color: #fae7d0; 
+}
+@keyframes type {
+    from { margin: 459px 190px; }
+}
+.hand-2 {
+    width: 30px; height: 15px; margin: 459px 260px;
+    animation: type2 0.5s linear infinite alternate;
+    box-shadow: #ffcc99 inset -10px -4px 0 0;
+    border-radius: 100px 100px 0 0;
+    background-color: #fae7d0; 
+}
+@keyframes type2 {
+    from { margin: 455px 262px; }
+}
+       /*-------------Extra decor------------*/
+.shelf {
+    width: 200px; height: 7px; margin: 230px 40px;
+    background-color: #111; border-radius: 2px;
+}
+.trophie {
+    width: 50px; height: 55px; margin: 148px 130px;
+    border-radius: 10px 10px 100px 100px;
+    box-shadow: #ffb51a inset 10px -10px 0 0;
+    background-color: #fdc640;
+}
+.trophie::after {
+    width: 10px; height: 20px; margin: 52px 19px;
+    box-shadow: #ffb51a inset 5px 2px 0 0;
+    background-color: #fdc640;
+}
+.trophie::before {
+    width: 25px; height: 12px; margin: 70px 12px;
+    box-shadow: #795601 inset 0 -5px 0 0;
+    background-color: #fdbe28;
+}
+.trophie-2 {
+    width: 40px; height: 40px; margin: 160px 80px;
+    box-shadow: inset #ffb51a 5px 5px 0 0, inset #ffb51a -3px -3px 0 0;
+    border-radius: 50%;
+    background-color: #ffce67;
+}
+.trophie-2::after {
+    width: 7px; height: 20px; margin: 40px 16px;
+    box-shadow: inset #ffb51a 3px 4px 0 0;
+    background-color: #ffce67;
+}
+.trophie-2::before {
+    width: 25px; height: 12px; margin: 60px 7px;
+    box-shadow: #000 inset 0 -5px 0 0;
+    background-color: #ffce67;
+}
+.shelf-2 {
+    width: 170px; height: 7px; margin: 180px 210px;
+    background-color: #111; border-radius: 2px;
+}
+.books {
+    width: 18px; height: 70px; margin: 110px 230px;
+    background-color: #26abff; border-radius: 2px;
+    box-shadow: #009dff inset -7px 5px 0 0;
+}
+.books::after {
+    width: 18px; height: 60px; margin: 10px 18px;
+    background-color: #522e92; border-radius: 2px;
+    box-shadow: #3e236e inset -7px 5px 0 0;
+}
+.books::before {
+    width: 18px; height: 72px; margin: -2px 36px;
+    background-color: #ff3f3f; border-radius: 2px;
+    box-shadow: #ff2626 inset -7px 5px 0 0;
+}
+.plant {
+    width: 40px; height: 50px; margin: 100px 310px;
+    box-shadow: inset #449e48 5px 5px 0 0;
+    border-radius: 100% 0 100% 0;
+    transform: rotate(-30deg);
+    background-color: #4caf50; 
+}
+.plant::after {
+    width: 40px; height: 50px; margin: 15px 10px;
+    box-shadow: inset #357a38 5px 5px 0 0;
+    border-radius: 100% 0 100% 0;
+    transform: rotate(30deg);
+    background-color: #3d8c40; 
+}
+.plant::before {
+    width: 40px; height: 50px; margin: 0 -15px;
+    box-shadow: inset #2e6930 5px 5px 0 0;
+    border-radius: 100% 0 100% 0;
+    transform: rotate(-30deg);
+    background-color: #357a38; 
+}
+.pot {
+    width: 60px; height: 40px; margin: 140px 302px;
+    background-color: #fff;
+    border-radius: 50% 50% 100px 100px;
+    box-shadow: #ddd inset 10px -10px 0 0, #c4c4c4 inset -5px 5px 0 0;
+}
+.cup {
+    width: 25px; height: 30px; margin: 449px 320px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #fff;
+}
+.cup::after {
+    width: 23px; height: 5px; margin: 1px 1px;
+    animation: vapour 2s ease-in-out 0.5s infinite;
+    border-radius: 100%; background-color: #6f4e37;
+    box-shadow: #fff 0 -10px 15px 0;
+}
+@keyframes vapour {
+    from { box-shadow: #fff 0 10px 5px 0; }
+}
+.cup::before {
+    width: 10px; height: 12px; margin: 8px 20px;
+    border-radius: 10px; border: 2px solid #fff;
+  }
