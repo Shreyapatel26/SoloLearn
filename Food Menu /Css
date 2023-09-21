@@ -1,0 +1,42 @@
+body {
+    font-family: 'Fredericka the Great', cursive;
+    background-color:#f5fdfe; font-weight:bold;}
+.menu{
+    font-size:5vh; font-weight:bolder; color:#f8f8f8;
+    background-color:#000000;letter-spacing:2px;
+    padding-top:10px;padding-bottom:10px; 
+    border-top-right-radius:10px; text-align:center;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:0; }
+.menu2{
+    text-align:center; background-color:#000000;
+    color:#f8f8f8; font-size:3vh;padding-top:10px;
+    padding-bottom:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px; }
+.container{ 
+    font-family: 'Ubuntu', sans-serif;
+    width:370px; height:380px; border-radius:10px;
+    background-color:#ffffff; border:2px solid #ffffff; 
+    box-shadow:#999999 0 0 40px 1px;}
+img{
+    margin-left:50px; border-radius:5px;
+    box-shadow:#999999 0 0 10px -1px;}
+.Burger{
+    font-size:4vh; margin-left:20px; margin-top:10px; }
+.Price{ color:#A30000; margin-left:50px;}
+.Quantity{ margin-left:50px;}
+.Quantity2{
+    color:#013220; margin-left:1px;border-radius:5px;
+    background-color:#ffffff; border:1px solid #222222;
+    font-weight:bold; width:200px; height:18px;}
+.Order{
+    width:300px; height:30px; border-radius:5px;
+    background-color:#123524; color:#ffffff;
+    border:none; font-size:100%; margin-left:35px;
+    font-weight:light;}
+.Order:hover{
+    background-color:#002366; color:#ffffff;
+    width:280px; height:27px; font-size:95%;
+    margin-left:43px; box-shadow:#b8b8b8 0 0 10px 1px;}
+p{text-align:center; font-size:3vh; color:#d21404;}
