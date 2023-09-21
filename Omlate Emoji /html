@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Omlate🤪</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="contain"></div>
+        <span>&#127859</span>
+        <div class="contain"></div>
+        <div class="circle"></div>
+        <div class="cir"></div>
+        <div class="omlate"></div>
+        <div class="handle"></div>
+        <p>Omlate Emojiiii!</p>
+    </body>
+</html>
