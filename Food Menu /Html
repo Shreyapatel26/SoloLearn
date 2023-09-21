@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Menu~</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="menu">
+        <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/fkytfmrm.json"
+    trigger="loop"
+    colors="primary:#ffffff,secondary:#c71f16"
+    style="width:50px;height:50px">
+</lord-icon>Spice Park</div>
+    <div class="menu2">
+        Menu : )
+    </div>
+        <p></p>
+        <div class="container">
+            <div class="Burger">1. Burger</div> <br />
+        <img width="270px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7nJaMvvUJp9DI3BxfGPksPQPpUbNFnoJdxg&usqp=CAU">
+  <p></p>  <div class="Price">Price:   $4.49</div> 
+        <div class="Quantity">Quantity: 
+       <input class="Quantity2"type="text" name="quantity"></div>
+        <br />
+            <input class="Order"type="submit" value="ORDER✔">
+        </div>
+        <br /><br /> <br />
+        <div class="container">
+       <div class="Burger">2. French Fries</div> <br />
+        <img width="270px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPsXLnSt1pXqrvArbHBdKigRfreXd3uI-ZGg&usqp=CAU">
+   <p></p> <div class="Price">Price:   $4</div>
+        <div class="Quantity">Quantity: 
+       <input class="Quantity2"type="text" name="quantity"></div>
+        <br />
+            <input class="Order"type="submit" value="ORDER✔">
+        </div>
+        <br /><br /> <br /><br />
+        <div class="container">
+       <div class="Burger">3. Cola</div> <br />
+        <img width="270px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaFIfaScWdcav5fJxDZ3Ub8laZGB6fNGnaiA&usqp=CAU">
+  <p></p>  <div class="Price">Price:   $1.27</div> 
+        <div class="Quantity">Quantity:
+       <input class="Quantity2"type="text" name="quantity"></div>
+        <br /> <br />
+            <input class="Order"type="submit" value="ORDER✔">
+        <br /><br /><br /><br /><br /><br />
+        <div class="container">
+       <div class="Burger">4. Pizza</div> <br />
+        <img width="270px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT8VW2i27ZOMVDz-YMEAB9U-V-0RV4TSZ3aw&usqp=CAU">
+        <p></p>
+        <div class="Price">Price:   $11.99</div>
+        <div class="Quantity">Quantity:
+           <input class="Quantity2"type="text" name="quantity"></div>
+        <br /> <br />
+        <input class="Order"type="submit" value="ORDER✔">
+        <br /><br /><br /><br /><br /><br />
+        <div class="container">
+       <div class="Burger">5. Sandwich</div> <br />
+        <img width="270px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRud0lP5oiGDidz8Kui00zz7m_bsiOlhd-yXA&usqp=CAU">
+  <p></p>  <div class="Price">Price:   $3.28</div> 
+        <div class="Quantity">Quantity:
+           <input class="Quantity2"type="text" name="quantity"></div>
+        <br />
+            <input class="Order"type="submit" value="ORDER✔">
+        </div>
+        <br /><br /><br />
+        <p>Thanks for visiting &copy;Shreya</p>
+        <br /><br /><br />
+    </body>
+</html>
