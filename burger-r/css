@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    height: 400px;
+    overflow: hidden;
+    background: conic-gradient(from 140deg at -20% 0%, #E0BBE4, #957DAD);
+}
+.table {
+    height: 6px;
+    width: 300px;
+    margin: 400px auto;
+    border-radius: 50px;
+    background-color: #111;
+}
+.burgerBase {
+    width: 180px;
+    height: 40px;
+    margin: -446px auto;
+    background-color: #ffb342;
+    border-radius: 10px 10px 100px 100px;
+    box-shadow: #ffba45 inset 100px 0 0 0;
+}
+.lettuce {
+    width:179px;
+    margin: -5px auto;
+}
+.onion {
+    width: 180px;
+    height: 10px;
+    margin: -37px auto;
+    border-radius: 50px;
+    background-color: #ffb3c9;
+}
+.center {
+    width: 180px;
+    height: 20px;
+    margin: 6px auto;
+    border-radius: 100px;
+    background-color: #331e10;
+}
+.cheese {
+    height: 5px;
+    width: 180px;
+    margin: -30px auto;
+    border-radius: 50px;
+    background-color: #fef24e;
+}
+.cheese::after {
+    content:'';
+    width: 7px;
+    height: 20px;
+    margin: auto 10px;
+    position: absolute;
+    border-radius: 50px;
+    background-color: #fef24e;
+    box-shadow: #fef24e 10px 0 0 -2px;
+}
+.tomato {
+    width: 180px;
+    height: 10px;
+    margin: 15px auto;
+    border-radius: 50px;
+    background-color: #ff1a0e;
+}
+.lettuce-2 {
+    margin: -30px auto;
+}
+.bun {
+    width: 180px;
+    height: 80px;
+    margin: -120px auto;
+    background-color: #ffb342;
+    border-radius: 100px 100px 10px 10px;
+    box-shadow: #ffba45 inset 100px 0 0 0;
+    
+}
+.bun::after {
+    content:'';
+    width: 100px;
+    height: 50px;
+    margin: 10px 4px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #FCC981;
+    transform: rotate(-30deg);
+}
+.glass-1 {
+    width: 10px;
+    height: 10px;
+    margin: 230px auto;
+    background-color: #222;
+    transform: rotate(20deg);
+    animation: twinkle 1s linear infinite alternate;
+    box-shadow: #222 200px 100px 0 0, #222 100px -100px 0 0, #222 0 300px 0 -1px, #222 -80px 130px 0 0, #222 -10px -100px 0 0, #222 100px 300px 0 0, #222 190px 200px 0 0;
+}
+@keyframes twinkle {
+    to
+        { box-shadow: #222 200px 100px 0 -10px, #222 100px -100px 0 3px, #222 0 300px 0 -4px, #222 -80px 130px 0 3px, #222 -10px -100px 0 -10px, #222 100px 300px 0 -1px, #222 190px 200px 0 1px; }
+  }
