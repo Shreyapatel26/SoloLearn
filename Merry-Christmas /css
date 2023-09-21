@@ -1,0 +1,290 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-image: url("https://i.pinimg.com/originals/c2/77/c1/c277c1a7f0c017685816808df85a8d80.gif");
+}
+.ground {
+    width: 100%;
+    height: 200px;
+    margin: 472px 0;
+    box-shadow: #666 0 -2px 10px -2px;
+    background: linear-gradient(180deg, #ffffff, #ffe5f0);
+}
+
+                /*Christmas Trees*/
+.tree1 {
+    width: 0;
+
+    height: 0;
+    margin: -950px 50px;
+    border-bottom: 300px solid #26580f;
+
+
+    border-left: 100px solid transparent;
+
+    border-right: 100px solid transparent;
+
+
+}
+#star {
+    width: 40px;
+    height: 40px;
+    filter: blur(7px);
+    margin: -10px -20px;
+    border-radius: 50%;
+    background-color: #fcf340;
+    animation: blink 3s linear infinite alternate;
+}
+@keyframes blink {
+    20% { background-color: #01ffc3; }
+    40% { background-color: #01ffff; }
+    60% { background-color: #ffb3fD; }
+    80% { background-color: #9d72ff; }
+    100% { background-color: #7fff00; }
+}
+.tree2 {
+    width: 0;
+    height: 0;
+    margin: 770px -10px;
+    border-bottom: 200px solid #1e5631;
+    border-left: 80px solid transparent;
+
+    border-right: 80px solid transparent;
+
+}
+#star2 {
+    width: 30px;
+    height: 30px;
+    filter: blur(7px);
+    margin: -10px -15px;
+    border-radius: 50%;
+    background-color: #fcf340;
+    animation: blink 3s linear infinite alternate;
+}
+@keyframes blink {
+    20% { background-color: #01ffc3; }
+    40% { background-color: #01ffff; }
+    60% { background-color: #ffb3fD; }
+    80% { background-color: #9d72ff; }
+    100% { background-color: #7fff00; }
+}
+.tree3 {
+    width: 0;
+    height: 0;
+    margin: -980px 160px;
+    border-bottom: 220px solid #007f00;
+    border-left: 90px solid transparent;
+
+    border-right: 90px solid transparent;
+
+}
+#star3 {
+    width: 30px;
+    height: 30px;
+    filter: blur(7px);
+    margin: -10px -13px;
+    border-radius: 50%;
+    background-color: #fcf340;
+    animation: blink 3s linear infinite alternate;
+}
+@keyframes blink {
+    20% { background-color: #01ffc3; }
+    40% { background-color: #01ffff; }
+    60% { background-color: #ffb3fD; }
+    80% { background-color: #9d72ff; }
+    100% { background-color: #7fff00; }
+}
+
+                    /*All Gifts*/
+.gift1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin: 900px 80px;
+    background-color: #fc46aa;
+    box-shadow: 3px 3px 5px -4px;
+}
+.gift1::after {
+    content:'';
+    width: 5px;
+    height: 90px;
+    margin: 0 45px;
+    position: absolute;
+    background-color: #0da2ff;
+}
+.gift1::before {
+    width: 100px;
+    content:'';
+    height: 5px;
+    margin: 30px 0;
+    position: absolute ;
+    background-color: #0da2ff;
+}
+#gift1top {
+    width: 104px;
+    height: 10px;
+    margin: 0 -2px;
+    border-radius: 1px;
+    background-color: #fc46aa;
+    box-shadow: 0 3px 5px -4px;
+}
+#gift1top::after {
+    content:'';
+    width: 5px;
+    height: 10px;
+    margin: 0 47px;
+    position: absolute;
+    background-color: #0da2ff;
+}
+.gift2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 2px;
+    margin: -960px 30px;
+    background-color: #75080c;
+    box-shadow: 0 3px 5px -4px;
+}
+.gift2::after {
+    content:'';
+    width: 6px;
+    height: 70px;
+    margin: 0 36px;
+    position: absolute;
+    background-color: #e2c833;
+}
+.gift2::before {
+    content:'';
+    width: 80px;
+    height: 6px;
+    margin: 30px 0;
+    position: absolute;
+    background-color: #e2c833;
+}
+#gift2top {
+    width: 84px;
+    height: 10px;
+    margin: 0 -2px;
+    background-color: #75080c;
+    box-shadow: 3px 3px 5px -4px;
+}
+#gift2top::after {
+    content:'';
+    width: 6px;
+    height: 10px;
+    margin: 0 38px;
+    position: absolute;
+    background-color: #e2c833;
+}
+
+                     /*SnowMan*/
+.snowman {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin: 890px 210px;
+    background-color: #fff;
+    box-shadow: #888 0 5px 5px -2px, #ddd inset 10px 10px 20px 0, #ddd inset -2px -2px 20px 0;
+}
+#head {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: -1140px 230px;
+    background-color: #fff;
+    box-shadow: #999 0 10px 10px -10px, #ddd inset 5px 5px 20px 0, #ddd inset -2px -2px 20px 0;
+}
+#head::after {
+    content:'';
+    width: 25px;
+    height: 25px;
+    margin: 35px 25px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #000;
+    box-shadow: 40px 0 0 0, 20px 45px 0 -7px, #ff6600 20px 23px 0 -3px, 20px 160px 0 2px, 20px 120px 0 -1px, 20px 90px 0 -3px;
+}
+#hand1 {
+    width: 5px;
+    height: 90px;
+    margin: 1080px 210px;
+    background-color: #49311d;
+    transform: rotate(-40deg);
+}
+#hand2 {
+    width: 5px;
+    height: 90px;
+    margin: -1168px 359px;
+    background-color: #49311d;
+    transform: rotate(40deg);
+}
+#hat {
+    width: 0;
+    height: 0;
+    margin: 970px 235px;
+    border-radius: 10px;
+    border-bottom: 70px solid #842bd7;
+
+
+    border-left: 55px solid transparent;
+
+    border-right: 55px solid transparent;
+    animation: fly 3s linear forwards alternate;
+
+}
+@keyframes fly {
+    to { transform: rotate(360deg); }    }
+#hat::after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    margin: -15px -15px;
+    background-color: #fff;
+    box-shadow: inset #ddd 5px 5px 4px 0, #444 0 5px 5px -2px;
+}
+#shawl {
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    margin: -896px 230px;
+    background-color: #842bd7;
+    box-shadow: inset #532d84 -5px -5px 5px 0, #444 0 5px 5px -3px;
+}
+#shawl::after {
+    content: '';
+    width: 30px;
+    height: 80px;
+    position: absolute;
+    border-radius: 50px;
+    background-color: #842bd7;
+    animation: long 2s linear infinite alternate;
+    box-shadow: inset #532d84 -5px 5px 5px 0, #444 0 5px 5px -3px;
+}
+@keyframes long {
+    to { height: 90px; }    }
+.cloud {
+    width: 100%;
+    height: 70px;
+    margin: 340px 0;
+    filter: blur(10px);
+    border-radius: 50px;
+    background-color: #fff;
+}
+h2 {
+    color: #fff;
+    width: 250px;
+    font-size: 25px;
+    padding: 10px 40px;
+    margin: 390px -400px;
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px 100px 100px 10px;
+    background: rgba( 255, 255, 255, 0.25 );
+    animation: wish 4s linear forwards alternate;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    font-family: 'Mountains of Christmas', cursive;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+@keyframes wish {
+    to { margin: 390px -20px; }    }
