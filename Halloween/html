@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>~With emojizz🎃🕯~</title>
+                 <!--Font style-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    
+    <div class="wish">Happy Halloween!!🎃👻🍬</div>
+    
+        <div class="table-top"></div>
+            <div class="table1"></div>
+            <div class="table2"></div>
+            
+        <div class="pumpkin-1">🎃</div>
+            <div class="pumpkin-2">🎃</div>
+        
+        <div class="candle-1">🕯</div>
+            <div class="candle-2">🕯</div>
+            <div class="candle-3">🕯</div>
+        
+        <div class="light"></div>
+        
+        <div class="ghost">👻</div>
+    </body>
+</html>
