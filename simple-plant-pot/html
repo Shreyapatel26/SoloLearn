@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Plant | CSS Art</title>
+        
+ <meta charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+    </head>
+    <body>
+    
+        <section class="ground"></section>
+        
+        <div class="pot"></div>
+        
+        <div class="base"></div>
+        <div class="base2"></div>
+        
+        <div class="leaf"></div>
+        <div class="leaf2"></div>
+        
+        <div class="stem"></div>
+        <div class="flower-1"></div>
+        <div class="leaf3"></div>
+        
+         <p id="firefly-1">●</p>
+         <p id="firefly-2">●</p>
+         <p id="firefly-3">●</p>
+         <p id="firefly-4">●</p>
+         <p id="firefly-5">●</p>
+         <p id="firefly-6">●</p>         
+         <p id="firefly-7">●</p>
+         <p id="firefly-8">●</p>
+         <p id="firefly-9">●</p>
+        <p id="firefly-10">●</p>
+        
+        <div class="clouds"></div>
+        <div class="star one">★</div>
+        <div class="star two">★</div>
+        <div class="star three">★</div>
+        <div class="star four">★</div>
+        <div class="star five">★</div>
+        <div class="star six">★</div>
+        <div class="star seven">★</div>
+        <div class="star eight">★</div>
+        <div class="star nine">★</div>
+        <div class="star ten">★</div>
+        <div class="moon"></div>
+        
+    </body>
+  </html>
