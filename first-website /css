@@ -1,0 +1,130 @@
+                /*CREATOR: SHREYA*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-weight: bolder;
+    background-color: #eef7ee;
+    font-family: 'Roboto Slab', serif;
+}
+                                      /*Nav Bar*/
+.navBar {
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    padding: 1px 1px;
+    font-weight: bolder;
+    background-color: #3c6f3c;
+    box-shadow: #000 0 0 10px 0;
+    font-family: 'Noto Serif', serif;
+}
+li {
+    display: inline;
+    list-style: none;
+    padding: 17px 9px;
+}
+li:hover {
+    font-size: 15px;
+    background-color: #222;
+}
+                               /*Written on the GIF*/
+.logo {
+    color: #000;
+    font-size: 40px;
+    text-align: left;
+    margin: -70px 10px;
+    font-family: 'Corinthia', cursive;
+}
+.note {
+    color: #000;
+    font-size: 15px;    
+    text-align: right;
+    margin: 65px 10px;
+}
+                                     /*Home Section*/
+fieldset {
+    width: 85%;
+    margin: -46px 8px;
+    padding: 20px 20px;
+    border-radius: 5px;
+    border: 1px solid #182c18;
+}
+.qus {
+    color: #539b53;
+    font-size: 20px;
+    text-align: center;
+}
+.ans {
+    color: #4a4a4a;
+    font-size: 15px;
+    text-align: center;
+}
+                             /*First Section(About)*/
+.firstSection {
+    width: 100%;
+    height: 500px;
+    padding: 70px 0;
+    background-color: #fdfbe1;
+}
+span {
+    color: #15ab88;
+    font-size: 20px;
+}
+                         /*Second Section(Services)*/
+.secondSection {
+    color: #333;
+    width: 100%;
+    height: 560px;
+    padding: 30px 0;
+    background-color: #cdf2d8;
+}
+hr {
+    background-color: #fff;
+    border: 1px solid #eef7ee;
+}
+                    /*Last Section(Contact us) Form*/
+.lastSection {
+    width: 100%;
+    height: 500px;
+    padding-top: 60px;
+    background-color: #d7f4d2;
+}
+input {
+    color: #222;
+    width: 270px;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #77dd66;
+}
+.button {
+    color: #fff;
+    width: 270px;
+    border: none;
+    transition: 0.1s;
+    font-weight: bolder;
+    background-color: #0a5a05;
+    box-shadow: #000 0 0 10px -6px;
+}
+.button:hover {
+    font-size: 15px;
+    box-shadow: none;
+    background-color: #89d65e;
+}
+
+                                /*Footer for icons*/
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 30px 10px;
+    background-color: #3c6f3c;
+}
+i {
+    color: #fff;
+    padding: 10px;
+}
+i:hover {
+    color: #ff9b00;
+    font-size: 30px;
+}
