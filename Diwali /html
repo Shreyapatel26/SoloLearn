@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+        <title>🕯🕯💥</title>
+        
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+    
+        <div class="string"></div>
+            <div id="diya"></div>
+            <div id="flame"></div>
+        
+        <div class="string-2"></div>
+            <div id="diya-2"></div>
+            <div id="flame-2"></div>
+        
+        
+         <div class="string-3"></div>
+            <div id="diya-3"></div>
+            <div id="flame-3"></div>
+            
+        <div class="light"></div>
+        
+        <p>Happy Diwali!</p>
+    
+    </body>
+</html>
