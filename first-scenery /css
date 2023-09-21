@@ -1,0 +1,182 @@
+/*~~~~~~~~~~~~~~~~CREATOR SHREYA~~~~~~~~~~~~~~~~~~~*/
+
+body {
+    background: linear-gradient(0deg, #000000, #59bfff);
+    animation: movingGradient 7s linear forwards alternate;
+    background-size: 200% 200%;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 0;   
+}
+
+/*______________DAY to NIGHT Animation_____________*/
+
+@keyframes movingGradient {
+    from 
+        { background-position: 0 0; }
+    to 
+        { background-position: 100% 100%; }   
+}
+
+/*______________________SUN________________________*/
+
+.sun {    
+    width: 100px; 
+    height: 100px;
+    margin: 30px 240px;
+    border-radius: 50px;
+    background-color: #ffff00;
+    box-shadow: #ffff00 0 0 50px 10px;
+    animation: moon 7s linear forwards alternate;
+}
+
+/*____________ANIMATION FOR SUN to MOON____________*/
+
+@keyframes moon {
+    from 
+        { background-color: #ffff00; }
+    to 
+        { box-shadow: #fff 0 0 50px 10px;
+      background-color: #fff; }  
+}
+
+/*_____________________CLOUDS______________________*/
+
+.cloud-1 {
+    width: 100px; 
+    height: 20px;
+    filter: blur(5px);
+    border-radius: 50%;
+    margin: -60px 210px;  
+    background-color: #fff;    
+}
+.cloud-2 {
+    width: 90px;  
+    height: 20px;
+    filter: blur(5px);
+    border-radius: 50%;
+    margin: -60px 290px;
+    background-color: #fff;  
+}
+.cloud-3 {
+    width: 150px;  
+    height: 20px;
+    filter: blur(5px);
+    margin: -60px 40px;
+    border-radius: 50%;  
+    background-color: #fff;   
+}
+.cloud-4 {
+    width: 90px;  
+    height: 20px;
+    border-radius: 50%;
+    filter: blur(5px); 
+    margin: 100px -20px;
+    background-color: #fff;  
+}
+
+/*____________________TREES________________________*/
+
+.stem-1 {
+    width: 10px; 
+    height: 160px;
+    margin: 330px 100px;
+    background: linear-gradient(360deg, #360400, #74042d);
+}
+.tree-1 {
+    width: 170px;  
+    height: 200px;
+    border-radius: 50%;
+    margin: -680px 20px;
+    background: linear-gradient(360deg, #194002, #2a4f04, #3c5e05, #506d05, #657c05, #7c8b06, #949907, #ada80b);
+    animation: treeMove 5s linear infinite alternate; 
+}
+.stem-2 {
+    width: 16px; 
+    height: 370px;
+    margin: 430px 200px;
+    background: linear-gradient(300deg, #1f0700, #a62100);
+}
+.tree-2 { 
+    width: 240px;  
+    height: 90px;
+    border-radius: 50%; 
+    margin: -630px 90px; 
+    animation: treeMove 5s linear infinite alternate;
+    background: linear-gradient(360deg, #000000, #0d1606, #14240b, #18330e, #1b430e, #1d540d, #1f650a, #1f7604);
+}
+.tree3rd { 
+    width: 200px; 
+    height: 70px;
+    border-radius: 50%;
+    margin: 450px 110px; 
+    animation: treeMove 5s linear infinite alternate;
+    background: linear-gradient(360deg, #000000, #0d1606, #14240b, #18330e, #1b430e, #1d540d, #1f650a, #1f7604);
+}
+.tree4th { 
+    width: 140px;  
+    height: 60px;
+    border-radius: 50%;
+    margin: -600px 140px;
+    animation: treeMove 5s linear infinite alternate;
+    background: linear-gradient(360deg, #000000, #0d1606, #14240b, #18330e, #1b430e, #1d540d, #1f650a, #1f7604);
+}
+.stem-3 {
+    width: 12px;  
+    height: 170px;
+    margin: 750px 30px;
+    background: linear-gradient(300deg, #861e00, #420d00);
+}
+.tree-3 {
+    width: 100px;
+    height: 200px; 
+    border-radius: 50%;
+    margin: -1100px -15px;    
+    box-shadow: 10px 30px 70px 1px;
+    animation: treeMove 5s linear infinite alternate;
+    background: linear-gradient(360deg, #043636, #1ebd05); 
+}
+.stem-4 {
+    width: 10px; 
+    height: 160px;
+    margin: 1100px 300px;
+    background: linear-gradient(300deg, #861e00, #420d00);
+}
+.tree-4 {
+    width: 140px;
+    height: 190px;
+    margin: -1400px 245px;
+    box-shadow: -30px 30px 70px 1px; 
+    border-radius: 100px 200px 140px 110px;
+    animation: treeMove 10s linear infinite alternate; 
+    background: linear-gradient(360deg, #5c1c00, #672c00, #6e3e00, #715000, #6f6400, #687700, #598b00, #3a9f00);
+}    
+
+/*_______________Animation of TREES________________*/
+
+@keyframes treeMove {
+    from 
+        { transform: rotate(-5deg); }
+    to 
+        { transform: rotate(5deg); }    
+}
+
+/*____________________GROUND_______________________*/
+
+.ground {
+    width: auto; 
+    height: 120px;  
+    margin: 1482px 0;  
+    background: linear-gradient(0deg, #036803, #239e07, #44d805); 
+}
+
+/*_______________LEAVES on GROUND__________________*/
+
+.leaves {
+    width: 10px; 
+    height: 10px;
+    background-color: green;
+    filter: brightness(120%);
+    border-radius: 0 100px 0 100px;
+    box-shadow: #378805 30px 30px 0 0, #378805 70px 10px 0 0, #378805 90px 9px 0 0, #378805 10px 100px 0 0, #c8b88a 100px 50px 0 0, #378805 39px 49px 0 0, #bfda34 90px 28px 0 0, #ff8849 200px 10px 0 0, #378805 240px 20px 0 0, #00aead 139px 83px 0 0, #00aead 200px 39px 0 0, #378805 299px 19px 0 0, #378805 199px 39px 0 0, #378805 250px 10px 0 0, #00aead 150px 20px 0 0, #c8b88a 350px 18px 0 0;
+  }
