@@ -1,0 +1,81 @@
+body {
+     background-color:#4b0076;  overflow:hidden;
+     box-sizing:border-box;  margin:0; }
+.wish {
+    font-family:'Architects Daughter', cursive;
+    text-align:center; font-size:30px;
+    box-shadow:#000 0 0 10px 2px;
+  background: linear-gradient(90deg, #1f005c, #ffb56b);
+    padding:30px 30px;  color:#000; font-weight:bold; }
+.table-top {
+    width:350px;  height:27px;
+    background-color:#4a2511;  margin:450px 12px;
+    box-shadow:#333 inset 1px 4px 10px 1px, 5px 5px 8px 1px; }
+.table1 {
+    width:20px;  height:200px;
+    background-color:#4a2511;  margin:-450px 50px;
+    box-shadow:#222 inset 1px 4px 10px 1px, 5px 5px 8px 1px }
+.table2 {
+    width:20px;  height:200px;
+    background-color:#4a2511;  margin:250px 300px;
+    box-shadow:#222 inset 1px 4px 10px 1px, 5px 5px 8px 1px }
+.pumpkin-1 {
+    font-size:150px;  margin:-634px 30px;
+    text-shadow:0 0 10px #000;
+    animation-iteration-count:infinite;
+    animation-name:colorChange;animation-duration:15s;}
+@keyframes colorChange {
+    10%{ text-shadow:0 0 5px #23eac4;  }
+    20%{ text-shadow:0 0 10px #ea23ac;  }
+    30%{ text-shadow:0 0 5px #23ea61; }
+    40%{ text-shadow:0 0 10px #ea2349; }
+    50%{ text-shadow:0 0 5px #deea23; }
+    60%{ text-shadow:0 0 10px #881ee4; }
+    70%{ text-shadow:0 0 5px #0065a2; }
+    80%{ text-shadow:0 0 10px #cff800; }
+    90%{ text-shadow:0 0 5px #ffff00; }
+    100%{ text-shadow:0 0 10px #ee84b3; }    }
+.pumpkin-2 {
+    font-size:110px;  margin:515px 130px;
+    text-shadow:0 0 10px #000;
+    animation-iteration-count:infinite;
+    animation-name:ColorChange;animation-duration:10s;}
+@keyframes ColorChange {
+    10%{ text-shadow:0 0 10px #ffff00;  }
+    20%{ text-shadow:0 0 5px #fd1c03;  }
+    30%{ text-shadow:0 0 10px #ff00ff; }
+    40%{ text-shadow:0 0 5px #ff6600; }
+    50%{ text-shadow:0 0 10px #6e0dd0; }
+    60%{ text-shadow:0 0 5px #000080; }
+    70%{ text-shadow:0 0 10px #ff1493; }
+    80%{ text-shadow:0 0 5px #ccffff; }
+    90%{ text-shadow:0 0 10px #0099ff; }
+    100%{ text-shadow:0 0 5px #db7093; }    }
+.candle-1 {
+    font-size:80px;  margin:-604px 260px;
+    text-shadow:0 0 10px; }
+.candle-2 {
+    font-size:60px;  margin:540px 250px;
+    text-shadow:0 0 10px; }
+.candle-3 {
+    font-size:70px; margin:-615px 280px;
+    text-shadow:0 0 10px; }
+.light {
+    width:20px;  height:20px;  border-radius:50%;
+    filter:blur(3px);  background-color:#ffa703;
+    margin:400px 250px;
+    box-shadow:#04d9ff 70px 70px 7px 2px, #ff3903 -30px -20px 5px 5px, #ff035b -200px -200px 2px 6px, #03ffa7 100px -200px 10px 7px, #035bff -170px -100px 6px 7px, #d9ff03 29px 82px 4px 2px, #ff03d9 -28px -100px 14px 3px, #03ff29 -170px -180px 10px 2px, #a703ff -190px -20px 10px 2px, #00adcc -240px 160px 10px 5px, #83f52c -80px -180px 20px 3px; 
+    animation-name:lights; animation-duration:5s;
+    animation-iteration-count:infinite; }
+@keyframes lights {
+    from{ opacity:4%; }    }
+.ghost {
+    font-size:70px;  margin:-700px 150px;
+    animation-name:fly;  text-shadow:0 0 10px;
+    animation-iteration-count:infinite;
+    animation-duration:9s;}
+@keyframes fly {
+    10%{ transform:rotate(100deg); }
+    30%{ transform:rotate(-100deg); }
+    60%{ opacity:0%; }
+    100%{ transform:rotate(360deg); } }
