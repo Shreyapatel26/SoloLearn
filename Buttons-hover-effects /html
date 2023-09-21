@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>😁😁</title>
+        
+        <!--font style from "GOOGLE FONTs"-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Coda&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+                <!--All 3 buttons-->
+        <input class="btn-1" type="submit"    
+        value="Glass Shine!">
+        
+        <input class="btn-2" type="submit" 
+        value="Stretch~">
+        
+        <input class="btn-3" type="submit" 
+        value="Bright...">
+                
+                <!--The last😁-->
+        <footer>
+        <p>Cartoonish Btn hover!</br>Thanks for 
+        visiting! &copy;$hreya</p>
+        </footer>
+            
+    </body>
+  </html>
