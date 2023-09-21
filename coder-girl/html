@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+      <title>Simple CSS Art | Coder Girl</title>
+        
+        <meta charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+    </head>
+    <body>
+        
+        <div class="face"></div>
+        <div class="eye"></div>
+        <div class="mouth"></div>
+        <div class="body"></div>
+        
+        <div class="table"></div>
+        
+        <div class="computer"></div>
+        <div class="keyboard"></div>
+        
+        <div class="hand-1"></div>
+        <div class="hand-2"></div>
+        
+        <div class="shelf"></div>
+        <div class="trophie"></div>
+        <div class="trophie-2"></div>
+        
+        <div class="shelf-2"></div>
+        <div class="books"></div>
+        <div class="plant"></div>
+        <div class="pot"></div>
+        <div class="cup"></div>
+        
+    </body>
+</html> 
