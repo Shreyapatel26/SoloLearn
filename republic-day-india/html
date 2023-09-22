@@ -1,0 +1,34 @@
+<!--
+                CREATOR: SHREYA
+                ~~~~~~~~~~~~~~~
+                 •All Pure CSS
+-->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+    
+  <title>Happy Republic Day | With pure CSS</title>
+        
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">     
+                
+<meta charset="UTF-8" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    </head>
+    <body>
+        
+        <div class="sun"></div>
+        <div class="ground"></div>
+        <div class="leaves"></div>
+        <h3> Happy Republic Day!! </h3>
+        
+    </body>
+</html>
+
+<!--
+         VERY VERY HAPPY REPUBLIC DAY TO ALL!
+--> 
