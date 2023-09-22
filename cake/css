@@ -1,0 +1,157 @@
+              /*CREATOR: SHREYA*/
+
+* {
+     box-sizing: border-box;
+ }
+body {
+    align-items: center;
+    margin: 0; padding: 0;
+    justify-content: center;
+    background-color: #88edff;
+}
+*,::after, ::before {
+    content: ''; position: absolute;
+}
+.salver {
+    margin: 400px 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 300px; height: 60px;
+    box-shadow: inset #ddd -5px -5px;
+}
+.salver::after {
+    margin: 55px 140px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 15px; height: 70px;
+    box-shadow: inset #ddd -5px 5px;
+}
+.salver::before {
+    margin: 110px 80px;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 140px; height: 20px;
+    box-shadow: inset #ddd -5px -5px;
+}
+.cake1 {
+    margin: 365px 100px;
+    width: 200px; height: 70px;
+    border-radius: 0 0 30% 30%;
+    background-color: #c7ceea;
+}
+.cake1::after {
+    margin-top: -10px;
+    background-color: #281b0d;
+    width: 200px; height: 20px;
+    border-radius: 50% 50% 0 0;
+}
+.cake1::before {
+    z-index: 99;
+    border-radius: 50%;
+    margin: -20px 50px;
+    background-color: #9b673c;
+    width: 30px; height: 30px;
+    box-shadow: #9b673c 25px -1px 0 3px, 
+                #9b673c -25px -2px 0 3px;
+}
+.cake1-cream {
+    width: 200px;
+    margin: 375px 100px;
+}
+.cake2 {
+    margin: 305px 125px;
+    width: 150px; height: 65px;
+    border-radius: 0 0 30% 30%;
+    background-color: #ffb7b2;
+}
+.cake2::after {
+    margin-top: -10px;
+    background-color: #281b0d;
+    width: 150px; height: 20px;
+    border-radius: 50% 50% 0 0;
+}
+.cake2::before {
+    z-index: 99;
+    border-radius: 50%;
+    margin: -16px 78px;
+    background-color: #9b673c;
+    width: 25px; height: 25px;
+    box-shadow: #9b673c 20px -1px 0 3px, 
+                #9b673c -20px -2px 0 3px;
+}
+.cake2-cream {
+    width: 150px;
+    margin: 315px 125px;
+}
+.cake3 {
+    margin: 255px 150px;
+    background-color: #e2f0cb;
+    width: 100px; height: 55px;
+    border-radius: 0 0 30% 30%;
+}
+.cake3::after {
+    margin-top: -10px;
+    background-color: #281b0d;
+    width: 100px; height: 20px;
+    border-radius: 50% 50% 0 0;
+}
+.cake3::before {
+    z-index: 99;
+    border-radius: 50%;
+    margin: -25px 40px;
+    background-color: #9b673c;
+    width: 20px; height: 20px;
+    box-shadow: #9b673c 20px -1px 0 3px, 
+                #9b673c -20px -2px 0 3px;
+}
+.cake3-cream {
+    width: 100px;
+    margin: 265px 150px;
+}
+.box{
+    z-index: 99;
+    opacity:80%;
+    transition: 5s;
+    margin: 167px 70px;
+    width: 260px; height: 280px;
+    border-radius: 100% 100% 5% 5%;
+    box-shadow: inset #ddd -10px -5px;
+    background: 
+radial-gradient(circle at 90% 40%, #ffffff, #d5d5d5);
+}
+.box::after {
+    margin: -15px 120px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 20px; height: 15px;
+}
+.box:hover {
+    margin: -340px -10px;
+    transform: rotate(-30deg);
+}
+.cherry {
+    z-index: 99;
+    border-radius: 50%;
+    margin: 365px 205px;
+    background-color: #ff2e2e;
+    width: 10px; height: 10px;
+    box-shadow: #ff2e2e 10px 0, #ff2e2e 20px 0, 
+                #ff2e2e 30px 0, #ff2e2e 40px -2px, 
+                #ff2e2e 50px -3px, #ff2e2e 60px -7px,
+      #ff2e2e -60px -70px, #ff2e2e -52px -65px, 
+      #ff2e2e -42px -62px, #ff2e2e -32px -60px;
+}
+.strawberry {
+    border-radius: 50%;
+    margin: 210px 175px;
+    background-color: #ff2e2e;
+    width: 30px; height: 40px;
+    transform: rotate(-40deg);
+}
+.strawberry::after {
+    border-radius: 50%;
+    margin: 15px 20px;
+    background-color: #ff2e2e;
+    width: 30px; height: 40px;
+    transform: rotate(50deg);
+}
