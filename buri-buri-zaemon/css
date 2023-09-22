@@ -1,0 +1,202 @@
+* {
+     box-sizing: border-box;
+ }
+body {
+    margin: 0; padding: 0;
+    background-color: #b19cd9;
+    min-width: 100vw; min-height: 100vh;
+}
+*, ::after, ::before {
+    content:''; position: absolute;
+}
+.face {
+    margin: 120px 70px;
+    border-radius: 50%;
+    background-color: #ffcbc4;
+    width: 250px; height: 150px;
+    animation: moves 2s linear infinite alternate;
+}
+@keyframes moves {
+    50% { transform: rotate(5deg); }
+    100% { transform: rotate(-5deg);}
+}
+                    /*Ears*/
+.face::after {
+    margin: -90px 20px;
+    width: 0; height: 0;
+    transform: rotate(-10deg);
+    border: 100px solid #ffcbc4;
+    border-top: 40px solid transparent;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+}
+.face::before {
+    margin: -90px 150px;
+    width: 0; height: 0;
+    transform: rotate(10deg);
+    border: 100px solid #ffcbc4;
+    border-top: 40px solid transparent;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+}
+                   /*Eyes*/
+.eye {
+    border-radius: 50%;
+    margin: 180px 140px;
+    background-color: #000;
+    box-shadow: 90px 0 0 3px;
+    width: 15px; height: 15px;
+    animation: bigger 0.4s linear infinite alternate;
+}
+@keyframes bigger {
+    to{ width: 12px; height: 12px; 
+        box-shadow: 90px 0 0 4px;}
+}
+                  /*EyeBrows*/
+.eye::after {
+    margin: -45px 0;
+    border-radius: 50px;
+    background-color: #000;
+    transform: rotate(-55deg);
+    width: 12px; height: 65px;
+    animation: raise 0.8s linear infinite alternate;
+}
+@keyframes raise {
+    to { margin: -60px 0; }
+}
+.eye::before {
+    margin: -55px 90px;
+    border-radius: 50px;
+    background-color: #000;
+    transform: rotate(50deg);
+    width: 13px; height: 69px;
+    animation: raise2 0.8s linear infinite alternate;
+}
+@keyframes raise2 {
+    to { margin: -70px 90px; }
+}
+                    /*Nose*/
+.nose {
+    border-radius: 50%;
+    margin: 200px 130px;
+    background-color: #ffa7a6;
+    width: 75px; height: 75px;
+    animation: talk 0.3s linear infinite alternate;
+}
+@keyframes talk {
+    to { width: 69px; height: 69px; }
+}
+.nose::after {
+    margin: 10px 60px;
+    border-radius: 50%;
+    background-color: #ffa7a6;
+    width: 65px; height: 65px;
+    animation: talk2 0.4s linear infinite alternate;
+}
+@keyframes talk2 {
+    to { margin: 2px 60px;
+         width: 70px; height: 70px; }
+}
+.nose::before {
+    border-radius: 50%;
+    background-color: #000;
+    box-shadow: 55px 0 0 -3px;
+    width: 20px; height: 20px;
+    margin: 30px 25px; z-index: 99;
+}
+                     /*Body*/
+.body {
+    background-color: #ddd;
+    width: 160px; height: 100px;
+    margin: 240px 115px; z-index: -99;
+}
+                    /*legs*/
+.body::after {
+    margin: 110px 0;
+    width: 0; height: 0;
+    border: 80px solid #1261a0;
+    border-bottom: 50px solid transparent;
+}
+.foot {
+    border-radius: 45%;
+    margin: 465px 110px;
+    background-color: #1261a0;
+    transform: rotate(-20deg);
+    width: 25px; height: 15px;
+}
+.foot::after {
+    border-radius: 45%;
+    margin: 50px 140px;
+    background-color: #1261a0;
+    transform: rotate(40deg);
+    width: 25px; height: 15px;
+}
+
+                     /*Belt*/
+.belt {
+    margin: 335px 115px;
+    background-color: #111;
+    width: 160px; height: 15px;
+}
+.belt::after {
+    margin: -4px 60px;
+    border: 5px solid #999;
+    background-color: #ddd;
+    width: 30px; height: 15px;
+}
+                    /*Coat*/
+.coat {
+    z-index: -99;
+    margin: 250px 110px;
+    background-color: #111;
+    width: 45px; height: 150px;
+    box-shadow: #111 123px 0 0;
+}
+                /*Shirt's button*/
+.coat::after {
+    margin: 25px 78px;
+    border-radius: 50%;
+    background-color: #111;
+    width: 10px; height: 10px;
+    box-shadow: 0 20px, 0 40px;
+}
+                    /*Hands*/
+.hand-1 {
+    margin: 250px 85px;
+    background-color: #111;
+    transform: rotate(30deg);
+    width: 30px; height: 100px;
+    animation: straight 1s linear forwards alternate;
+}
+@keyframes straight {
+    to { transform: rotate(0);}
+}
+.hand-1::before {
+    margin: 98px 0; 
+    border-radius: 50%;
+    background-color: #ffcbc4;
+    width: 25px; height: 25px;
+}
+.hand-2 {
+    margin: 255px 275px;
+    background-color: #111;
+    transform: rotate(-60deg);
+    width: 30px; height: 100px;
+    animation: straight 1s linear forwards alternate;
+}
+@keyframes straight {
+    to { transform: rotate(0);}
+}
+.hand-2::before {
+    margin: 98px 0; 
+    border-radius: 50%;
+    background-color: #ffcbc4;
+    width: 25px; height: 25px;
+}
+.shadow {
+    z-index: -1000;
+    margin: 450px 70px;
+    border-radius: 50%;
+    background-color: #9682bd;
+    width: 250px; height: 50px;
+}
