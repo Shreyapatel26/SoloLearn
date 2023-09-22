@@ -1,0 +1,38 @@
+<!-- 
+                 CREATOR: SHREYA
+                 ~~~~~~~~~~~~~~~
+               •All from Pure CSS
+          •Buri Buri Zaemon from ShinChan
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+    
+   <title>Buri Buri Zaemon | Pure CSS Art</title>
+        
+<meta charset="UTF-8" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+    </head>
+    <body>
+        
+             <div class="face"></div>
+             <div class="eye"> </div>
+             <div class="nose"></div>
+             <div class="body"></div>
+             <div class="foot"></div>
+             <div class="belt"></div>
+             <div class="coat"></div>
+             <div class="hand-1"></div>
+             <div class="hand-2"></div>
+             <div class="shadow"></div>
+        
+    </body>
+</html>
+
+<!-- 
+          Thank you so much for visiting!
+      Hope you like it, Don't forgot to upvote
+            and Share with your friends:) 
+--> 
