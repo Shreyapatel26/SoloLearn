@@ -1,0 +1,42 @@
+<!--
+                CREATOR: SHREYA
+                ~~~~~~~~~~~~~~~
+            •ShinChan with Pure CSS
+
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+    
+       <title>ShinChan | Pure CSS Art</title>
+        
+<meta charset="UTF-8" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+    </head>
+    <body>
+        
+        <div class="face"></div>
+        <div class="eye"></div>
+        <div class="blush"></div>
+        <div class="hair"></div>
+        <div class="eyebrow"></div>
+        <div class="eyebrow-2"></div>
+        <div class="shirt"></div>
+        <div class="pant"></div>
+        <div class="legs"></div>
+        <div class="collar"></div>
+        <div class="hand"></div>
+        <div class="hand-2"></div>
+        <div class="shadow"></div>
+        
+    </body>
+</html>
+
+<!--            
+
+         Thank you very much for visiting!
+    Upvote and Share with your friends if like!!
+    
+-->
